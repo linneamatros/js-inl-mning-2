@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #e9e9e9;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+  background: #999;
+  border: 0px solid #ebebeb;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px -4px #a8a8a8;
+  margin-bottom: 1rem;
+}
+
+.light {
+  color: #fff;
+}
+
+.container {
+  width: 100%;
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;  
+}
+
+.card {
+  color: #333;
+  text-decoration: none;
+  border: 0px solid #ebebeb;
+  border-radius: 5px;
+}
+
+.card:hover {
+  color: #807c76;
+  text-decoration: none;
+  box-shadow: 3px 3px 10px -5px #333;
+}
+
